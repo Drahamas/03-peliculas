@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Peliculas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li class="lista">
+                    <table class="TMenu">
+                        <tr class="trMenu">
+                            <td><img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1tCq6Wf3Xk5tWJhhw9kpH-cN2ufss-BP6BFcGWFm2sQAkJc68J9sp6T-DXX9NIGCuE78&usqp=CAU" alt="Empresa"></td>
+                            <td class="nombreEmpresa"> <b>mov</b>T<b>i</b>M<b>e</b></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="lista listaR"><a href="./index.html">Inicio</a></li>
+                <li class="lista listaR"><a href="./pages/registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-slider">
+            <div class="slider" id="slider">
+                <img class="imgSlider" src="./imgPeliculas/01_pulpFiction.jpg" alt="">
+            </div>
+            <div id="btnRight" class="btnSlider btnRight">&#62;</div>
+            <div id="btnLeft"class="btnSlider btnLeft">&#60;</div>
+            
+        </div>
+
+        <div id="contPeliculas"></div>
+
+    </main>
+    <footer></footer>
+    <script src="./scripts/script.js" type="module"></script>
+</body>
+</html>
